@@ -1,0 +1,79 @@
+.flecha {
+    width: 100px; /* Ajusta el tamaño a tus necesidades */
+    height: 100px;
+    margin-left: 1760px;
+    margin-top: 650px;
+}
+
+.logo-image {
+    width: 300px; /* Ajusta el tamaño */
+    height: 135px;
+    margin-left: 1600px;
+    margin-top: -190px;
+}
+
+.title {
+
+    font-size: 100px; /* Ajusta el tamaño del texto según sea necesario */
+    font-family: 'Arial', sans-serif; 
+    color: black; 
+    margin-left: 500px;  
+}
+
+.linea {
+    border-left: 2px solid black; /* Define el grosor y color de la línea */
+    height: 815px; 
+    margin-left: 700px;
+    margin-top: -787px;
+}
+
+.movable-card {
+    position: absolute;  /* Permite mover la tarjeta con 'left' y 'top' */
+    left: 50px;          /* Controla la posición horizontal */
+    top: 190px;          /* Controla la posición vertical */
+    width: 550px;        /* Ancho de la tarjeta */
+    height: 300px;
+    padding: 50px;
+    background-color: #3f3d3d79;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease;  /* Suaviza el movimiento */
+}
+
+.movable-card h3 {
+    font-size: 35px; /* Tamaño grande para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.movable-card p {
+    font-size: 24px; /* Tamaño grande para el párrafo */
+    margin-top: 10px;  /* Espacio encima del párrafo */
+}
+
+.image-card {
+    position: absolute;
+    left: 900px;  /* Puedes ajustar la posición según sea necesario */
+    top: 200px;
+    width: 650px;  /* Ancho de la tarjeta */
+    height: 750px;  /* Altura de la tarjeta */
+    background-color: #f5f5f5;  /* Fondo opcional para la tarjeta */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;  /* La imagen ocupa todo el ancho de la tarjeta */
+    height: 100%; /* La imagen ocupa toda la altura de la tarjeta */
+    object-fit: cover; /* Asegura que la imagen cubra toda la tarjeta sin deformarse */
+}
+
+
+
+
+
+  
+
+  
